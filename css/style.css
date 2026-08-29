@@ -276,3 +276,143 @@ footer {
     }
 
 }
+/* =========================
+   Professional UI Design
+========================= */
+
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: #1f2937;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+header h1 {
+    color: #ffffff;
+}
+
+header p {
+    color: #f8fafc;
+}
+
+
+/* =========================
+   Search Section
+========================= */
+
+#city-input {
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffffff;
+}
+
+#city-input:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+#search-button {
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+#search-button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Current Weather Card
+========================= */
+
+#current-weather {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#location {
+    color: #1e3a8a;
+}
+
+#temperature {
+    color: #111827;
+}
+
+#condition {
+    color: #4b5563;
+}
+
+
+/* =========================
+   Weather Details Cards
+========================= */
+
+.weather-detail {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.weather-detail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================
+   Forecast Cards
+========================= */
+
+#forecast h2 {
+    color: #ffffff;
+}
+
+.forecast-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   Temperature Buttons
+========================= */
+
+#temperature-unit button {
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1e3a8a;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#temperature-unit button:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer p {
+    color: #ffffff;
+}

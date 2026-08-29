@@ -34,7 +34,12 @@
                 Search 🔍
             </button>
 
+            <button id="refresh-button">
+                🔄 Refresh
+            </button>
+
         </section>
+        <p id="status-message"></p>
 
 
         <!-- Current Weather Section -->
@@ -54,6 +59,10 @@
 
             <p id="condition">
                 Sunny
+            </p>
+
+            <p id="last-updated">
+                Last updated: --
             </p>
 
         </section>
@@ -83,46 +92,9 @@
         <!-- Forecast Section -->
         <section id="forecast">
 
-            <h2>7-Day Forecast</h2>
+        <h2>7-Day Forecast</h2>
 
-            <div id="forecast-container">
-
-                <div class="forecast-card">
-                    <h3>Monday</h3>
-                    <p>☀️</p>
-                    <p>32°C</p>
-                    <p>Sunny</p>
-                </div>
-
-                <div class="forecast-card">
-                    <h3>Tuesday</h3>
-                    <p>🌧️</p>
-                    <p>29°C</p>
-                    <p>Rain</p>
-                </div>
-
-                <div class="forecast-card">
-                    <h3>Wednesday</h3>
-                    <p>☁️</p>
-                    <p>30°C</p>
-                    <p>Cloudy</p>
-                </div>
-
-                <div class="forecast-card">
-                    <h3>Thursday</h3>
-                    <p>☀️</p>
-                    <p>33°C</p>
-                    <p>Sunny</p>
-                </div>
-
-                <div class="forecast-card">
-                    <h3>Friday</h3>
-                    <p>🌤️</p>
-                    <p>31°C</p>
-                    <p>Partly Cloudy</p>
-                </div>
-
-            </div>
+        <div id="forecast-container"></div>
 
         </section>
 
